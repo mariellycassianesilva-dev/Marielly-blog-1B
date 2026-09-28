@@ -1,1 +1,28 @@
+: root{
+  --cor-primaria: #183c63;
+  --cor-segundaria: #3782d2;
+  --cor-fundo: #fffff;
+  --cor-texto: #151428;
+  --cor-contraste: #f3eef7;
+  --cor-botao: #f9f9f9;
+  --fonte-texto: 'segoe UI', sans-serif;
+}
 
+: body{ 
+max-with: 100w
+font-family: var(--font-texto);
+}
+
+  .bn-tema-escuro{
+    position: fixed;
+  }
+
+.bnt-tema-escuro{
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  font-side: 32px;
+  padding: 12px; 
+  background-color: var(-- cor-primaria);
+  bonder-radius: 50%;
+} 
